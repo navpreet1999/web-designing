@@ -1,0 +1,126 @@
+#outer container{
+	width:100%;
+	float:left;
+}
+#grey{
+	width:100%;
+	float:left;
+	height:2.5rem;
+}
+#white{
+	width:60%;
+	float:left;
+	background:grey;
+	height:20rem;
+}
+#grey1{
+	width:40%;
+	float:left;
+	background:yellow;
+	height:10rem;
+}
+#blue{
+	width:40%;
+	float:left;
+	background:black;
+	height:10rem;
+}
+#text{
+	width:33.33%;
+	float:left;
+	background:pink;
+	height:10rem;
+}
+#image{
+	width:33.33%;
+	float:left;
+	background:purple;
+	height:10rem;
+}
+#about{
+	width:33.33%;
+	float:left;
+	background:green;
+	height:10rem;
+}
+#home{
+	width:33.33%;
+	float:left;
+	background:red;
+	height:10rem;
+}
+#contact{
+	width:33.33%;
+	float:left;
+	background:orange;
+	height:10rem;
+}
+#view{
+	width:33.33%;
+	float:left;
+	background:pink;
+	height:10rem;
+}
+#footer{
+	width:100%;
+	float:left;
+	background:grey;
+	height:15rem;
+}
+#style{
+	width:30%;
+	float:left;
+	height:10rem;
+	background-color: red;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+#container{
+	width:100%;
+	float:left;
+	background:black;
+	height:15rem;
+}
+#tree{
+	width:30%;
+	float:left;
+	height:10rem;
+	background-color: red;
+	margin-top: 2rem;
+	margin-left: 65rem;
+	margin-right: 2rem;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
